@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eks-cluster
+  annotations:
+    backstage.io/kubernetes-id: eks-cluster
+  tags:
+    - roxs
+    - k8s
+    - awscommunityday
+spec:
+  lifecycle: staging
+  system: community-idp
+  owner: community-authors
+  type: service
