@@ -10,6 +10,6 @@ metadata:
     - awscommunityday
 spec:
   lifecycle: staging
-  system: community-idp
-  owner: community-authors
+  system: community-aws
+  owner: community-aws-arg
   type: service

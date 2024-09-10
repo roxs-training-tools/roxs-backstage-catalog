@@ -8,17 +8,18 @@ metadata:
       url: https://backstage.roxs.dev/
   annotations:
     github.com/project-slug: roxsross/roxs-aws-backstage
-    argocd/app-name: 'community-idp'
-    backstage.io/kubernetes-id: 'community-idp'
+    argocd/app-name: 'community-aws'
+    backstage.io/kubernetes-id: 'community-aws'
     backstage.io/kubernetes-namespace: backstage
   tags:
     - backstage
     - idp
+    - roxs
+    - awscommunity
 spec:
   type: website
-  system: community-idp
-  owner: community-authors
+  system: community-aws
+  owner: community-aws-arg
   lifecycle: production
   dependsOn:
-    - resource:keycloak
     - resource:github

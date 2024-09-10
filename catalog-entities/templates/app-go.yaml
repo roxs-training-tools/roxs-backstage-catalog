@@ -9,6 +9,8 @@ metadata:
     - golang
     - website
     - component
+    - awscommunity
+    - roxs
 spec:
   owner: group:sre
   type: component

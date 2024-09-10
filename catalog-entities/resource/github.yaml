@@ -11,5 +11,5 @@ metadata:
 spec:
   type: repository
   lifecycle: production
-  owner: community-authors
-  system: community-idp
+  owner: community-aws-arg
+  system: community-aws

@@ -11,6 +11,6 @@ metadata:
     - k8s
 spec:
   lifecycle: staging
-  system: community-idp
+  system: community-aws
   owner: sre
   type: service

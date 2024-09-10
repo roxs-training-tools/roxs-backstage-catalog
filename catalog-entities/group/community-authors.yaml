@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: community-authors
-  title: Community Authors
+  name: community-aws-arg
+  title: Community AWS Argentina
 spec:
   type: team
   children: []
