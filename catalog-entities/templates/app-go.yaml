@@ -164,7 +164,7 @@ spec:
       input:
         repoUrl: github.com?repo=roxs-backstage-gitops&owner=roxsdev
         branchName: create-${{ parameters.component_id }}
-        title: ':robot: [backstage-bot] Create new App ${{ parameters.component_id }}'
+        title: ':robot: [roxs-bot] Create new App ${{ parameters.component_id }}'
         description: |
           # New project: ${{ parameters.component_id }}
           ${{ parameters.description if parameters.description }}

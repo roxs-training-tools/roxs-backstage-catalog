@@ -3,6 +3,7 @@ kind: Group
 metadata:
   name: community-aws-arg
   title: Community AWS Argentina
+  
 spec:
   type: team
   children: []
