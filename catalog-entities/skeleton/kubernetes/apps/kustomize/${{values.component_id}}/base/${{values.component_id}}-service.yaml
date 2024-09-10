@@ -4,8 +4,6 @@ kind: Service
 metadata:
   name: ${{values.component_id}}-service
   namespace: ${{values.component_id}}
-  annotations:
-    external-dns.alpha.kubernetes.io/hostname: ${{values.component_id}}.pauloponciano.digital
   labels:
     app: ${{values.component_id}}
     version: 0.0.1
